@@ -1,5 +1,9 @@
 # log-sentinel
 
+[![CI](https://github.com/DrVerzide/log-sentinel/actions/workflows/ci.yml/badge.svg)](https://github.com/DrVerzide/log-sentinel/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13-blue)](https://www.python.org)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 A blue-team tool that analyzes **SSH authentication logs** (`auth.log` / syslog format) and detects classic attack patterns, producing both human-readable and JSON reports. Zero runtime dependencies — pure standard library.
 
 ## Detection rules
